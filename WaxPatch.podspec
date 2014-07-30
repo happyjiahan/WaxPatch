@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/happyjiahan/WaxPatch.git", :tag => "1.0.0" }
 
-  s.source_files  = "WaxPatch/WaxPatch/wax/**/*.{h,m}", "WaxPatch/WaxPatch/ProtocolLoader.h"
+  s.source_files  = "WaxPatch/WaxPatch/wax/**/*.{h,c,m}", "WaxPatch/WaxPatch/ProtocolLoader.h"
 
 
   # s.frameworks = "SomeFramework", "AnotherFramework"
